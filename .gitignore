@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project-specific outputs
+checkpoints/
+runs/
+*.json
+logs/
+models/
+
+# JAX/ML specific
+jax_cache/
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Examples that generate files
+examples/demo_checkpoint/
+examples/*.png
+examples/*.json
